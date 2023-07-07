@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.conactner{
+    width: 320px;
+    border:3px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+.logo{
+    justify-content: center;
+    /* text-align: center; */
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+.bice-big-logo{
+width:40%;
+/* margin-top: 10px; */
+
+
+}
+.bice-small-logo{
+    width:30%;
+}
+.emp_name{
+    font-size: 22px;
+    
+}
+.register{
+    align-items: center;
+    margin-top: 2px;
+    text-transform: capitalize;
+   font-size: 15px;
+}
+span{
+    color: green;
+}
+.course{
+    /* text-align: center; */
+    text-transform: capitalize;
+    text-style:italic;
+    color: red;
+
+}
+.text_align{
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.redtext{
+    color: red;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.banner{
+    text-align: center;
+    line-height: 35px;
+    width: 100%;
+    height: 35px;
+    background-color:#8d4b94;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.stuimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.stuimg img{
+    width: 50%;
+    height: 50%;
+}
+.stuname{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+   line-height: 40px;
+    
+}
+.name{
+    text-transform: capitalize;
+    font-style: inherit;
+    text-align: start;
+}
+.group{
+    color: red;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.orcode img{
+    width: 50px;
+}
